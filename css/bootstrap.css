@@ -13,12 +13,13 @@
 }
 
 .navbar-expand-lg {
-background:  #264364 ;   
+background-image: linear-gradient(to left, blue, black ) ; 
 }
 
 .nav-link { 
     color: white; 
 }
+
 
 
 .btn{ 
@@ -88,10 +89,10 @@ margin-top: 5%;
 
 .titcontainer {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     margin-bottom: 5%;
-    background-color: #26436451 ;
+    background-color: #737c8751 ;
 }
 
 
