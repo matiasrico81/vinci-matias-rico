@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+/* layout index*/
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 0.9fr 1.1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.6fr 3.1fr 0.7fr 0.3fr 2.2fr 0.3fr 0.8fr;
+    gap: 4px 5px;
+    grid-auto-flow: row;  
+}
+
+.header { grid-area: 1 / 1 / 2 / 14; }
+.carrusel { grid-area: 2 / 1 / 3 / 14; }
+.caja .info { grid-area: 3 / 1 / 4 / 14; }
+.salto-1 { grid-area: 4 / 1 / 5 / 14; }
+.producto { grid-area: 5 / 1 / 6 / 14; }
+.producto-1 { grid-area: 5 / 2 / 6 / 5; }
+.producto-2 { grid-area: 5 / 6 / 6 / 9; }
+.producto-3 { grid-area: 5 / 10 / 6 / 13; }
+.salto-2 { grid-area: 6 / 1 / 7 / 14; }
+.footer { grid-area: 7 / 1 / 8 / 14; }
+
+
+/* header*/
+.header {
+    grid-column: 1/-1;
+    background:  #264364 ;
+    border: none;
+}
+
+.favicon{
+    position:relative;
+    right: -3vw;
+    top: 2vh;
+}
+
+.encabezado{
+    position: sticky;
+}
+
+.navegacion{
+max-width: 100vw;
+position: absolute;
+right: 2vw;
+top: 5vh;
+padding-bottom: 10vh;
+padding-right: 4vw;
+text-align: right;
+}
+
+.navegacion {
+    font-size:1rem;
+
+}
+
+.navbar {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 25px;
+}
+
+.navbar {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+.navegacion input{
+    float: center;
+    padding: 10px;
+    border: none;
+    margin-top: 0px;
+    margin-right: 90px;
+    font-size: 1rem;
+    border-radius: 10px;
+    outline: none;
+    color: #000;
+}
+
+.navegacion input{
+    width: 550px;
+}
+
+.navegacion a:hover{
+    background: #05182e;
+}
+
+
+/* carrusel */
+
+.carrusel {
+    grid-column: 1/-1;
+}
+
+
+/* info */
+.info {
+    grid-column: 1/-1;
+}
+
+.info{
+    height: 15vh;
+    width: 100%;
+    bottom: 5px;
+    margin-top: 0%;
+}
+
+.informacion{
+    list-style: none;
+    padding: 0px ;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.informacion li {
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    font-size: 1.5em;
+    padding: 50px;
+    margin: auto;
+}
+
+
+.datos {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color:#323437dc ;
+
+}
+
+
+/* salto-1 */
+
+.salto-1 {
+    grid-column: 1/-1; 
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    margin: auto;
+    align-items: center;
+}
+
+/* cards */
+.producto{
+    background: white;
+}
+
+.producto-1 {
+    background:  ;
+
+    border-radius: 15px; 
+}
+
+.producto-1 {
+    overflow:hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.8); 
+    cursor: default;
+    transition: all 400ms ease;
+    position: cover ;
+    max-width: 100vw;
+    background-size: cover;
+}
+
+.producto-2 {
+    background: #fff;
+    width: 350px;
+    height: 450px;
+    border-radius: 15px; 
+}
+
+
+.producto-2 {
+    overflow:hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.8); 
+    cursor: default;
+    transition: all 400ms ease;
+    position: cover ;
+    max-width: 100vw;
+    background-size: cover;
+}
+
+.producto-3 {
+    background: #fff;
+    width: 350px;
+    height: 450px;
+    border-radius: 15px; 
+}
+
+
+.producto-3 {
+    overflow:hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.8); 
+    cursor: default;
+    transition: all 400ms ease;
+    position: cover ;
+    max-width: 100vw;
+    background-size: cover;
+}
+
+.img-1 {    
+    width: 350px;
+    height: auto;
+}
+
+.impresora {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.precio {
+    text-align: center;
+    font-size: 2rem;
+    color: #0a3e7b;
+}
+
+/* footer */
+.footer {   
+    grid-column: 1/-1;  
+}
+
+.footer {
+
+    background:  #e1e4e7 ;
+    position: relative;
+    max-width: 100%;
+}
+
+.footer__text {
+    text-decoration: none; 
+    color: rgb(0, 0, 0);    
+    text-align: center; 
+    font-size: 1.2rem;
+    position: relative;
+    font-weight: bold;
+}
+
+.footer__text li {  
+    display: inline-block; 
+    padding: 50px; 
+}
+
+.footer__desarrollador {
+    color: rgb(3, 3, 3); 
+    text-align: center; 
+    position:  relative;
+    margin-top: 0px;    
+}    
+
+.footer__desarrollador li { 
+    display: inline-block;   
+} 
+
+
+/* PAGINA PRODUCTOS */
+
+
+/* layout index*/
+/* .container__productos {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 0.9fr 1.1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.8fr 0.3fr 2.2fr 0.3fr 0.3fr 2.2fr  0.3fr 0.3fr  ;
+    gap: 4px 5px;
+    grid-auto-flow: row;  
+}
+
+.header { grid-area: 1 / 1 / 2 / 14; }
+.carrusel { grid-area: 2 / 1 / 3 / 14; }
+.caja .info { grid-area: 3 / 1 / 4 / 14; }
+.salto-1 { grid-area: 4 / 1 / 5 / 14; }
+.producto { grid-area: 5 / 1 / 6 / 14; }
+.producto-1 { grid-area: 5 / 2 / 6 / 5; }
+.producto-2 { grid-area: 5 / 6 / 6 / 9; }
+.producto-3 { grid-area: 5 / 10 / 6 / 13; }
+.salto-2 { grid-area: 6 / 1 / 7 / 14; }
+.footer { grid-area: 7 / 1 / 8 / 14; } */
+
+
+/* cards */
+.producto{
+    background: white;
+}
+
+.producto-7 {
+    background:  ;
+    width: 350px;
+    height: 450px;
+    border-radius: 15px; 
+}
+
+.producto-7 {
+    overflow:hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.8); 
+    cursor: default;
+    transition: all 400ms ease;
+    position: cover ;
+    max-width: 100vw;
+    background-size: cover;
+}
+
+.producto-8 {
+    background: #fff;
+    width: 350px;
+    height: 450px;
+    border-radius: 15px; 
+}
+
+
+.producto-8 {
+    overflow:hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.8); 
+    cursor: default;
+    transition: all 400ms ease;
+    position: cover ;
+    max-width: 100vw;
+    background-size: cover;
+}
+
+.producto-9 {
+    background: #fff;
+    width: 350px;
+    height: 450px;
+    border-radius: 15px; 
+}
+
+
+.producto-9 {
+    overflow:hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.8); 
+    cursor: default;
+    transition: all 400ms ease;
+    position: cover ;
+    max-width: 100vw;
+    background-size: cover;
+}
+
+.img-1 {    
+    width: 350px;
+    height: auto;
+}
+
+.impresora {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.precio {
+    text-align: center;
+    font-size: 2rem;
+    color: #0a3e7b;
+}
+
+
+@media screen and (max-width: 768px):
+
+{ 
+ 
+}
+
+
+@media screen and (max-width: 480px):
+
+{
+    }
+    
