@@ -1,0 +1,29 @@
+/* Header*/
+
+.navbar-expand-lg {
+    background-image: $color_fondo ; 
+    }
+    
+    .form-control {
+        width: 40vw;    
+    }
+    
+    .navbar-toggler {
+        color:$color_letra;
+        border: $borde;
+    }
+    
+    .btn{ 
+        color: $color_letra;  
+        border : $borde; 
+    
+        &:hover{
+            background: #41454b;
+            border: $borde;
+        }   
+    }
+    
+    .nav-link { 
+        color: white; 
+    }
+    

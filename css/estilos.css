@@ -1,0 +1,121 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Header*/
+.navbar-expand-lg {
+  background-image: -webkit-gradient(linear, right top, left top, from(blue), to(black));
+  background-image: linear-gradient(to left, blue, black);
+}
+
+.form-control {
+  width: 40vw;
+}
+
+.navbar-toggler {
+  color: color white;
+  border: border 1px solid white;
+}
+
+.btn {
+  color: color white;
+  border: border 1px solid white;
+}
+
+.btn:hover {
+  background: #41454b;
+  border: border 1px solid white;
+}
+
+.nav-link {
+  color: white;
+}
+
+/* Página Index */
+/* info*/
+.info {
+  background-color: #41454b;
+  height: 15vh;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* card*/
+.card {
+  margin-top: 5%;
+}
+
+.card card-img-top {
+  -webkit-box-shadow: box-shadow(0px 1px 10px rgba(0, 0, 0, 0.8));
+          box-shadow: box-shadow(0px 1px 10px rgba(0, 0, 0, 0.8));
+}
+
+.card body {
+  background: background(#264364);
+  -webkit-box-shadow: box-shadow(0px 1px 10px rgba(0, 0, 0, 0.8));
+          box-shadow: box-shadow(0px 1px 10px rgba(0, 0, 0, 0.8));
+}
+
+.card body text {
+  font-size: 1.5rem;
+  text-align: center;
+  color: color white;
+}
+
+.card body title {
+  text-align: center;
+  color: color white;
+}
+
+/* Página Contacto */
+.formulario {
+  margin-left: 3%;
+}
+
+.mapa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 3%;
+}
+
+/* Página Nosotros */
+.card-nos {
+  background: aliceblue;
+  -webkit-box-shadow: box-shadow(0px 1px 10px rgba(0, 0, 0, 0.8));
+          box-shadow: box-shadow(0px 1px 10px rgba(0, 0, 0, 0.8));
+  margin-top: 2%;
+}
+
+.card-nos card-nosotros {
+  background-color: background(white);
+}
+
+/* Página Productos */
+/* Página Servicios */
+.titcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5%;
+  background-color: #737c8751;
+}
+
+/* footer*/
+.text-reset {
+  -webkit-text-decoration: text-decoration(none);
+          text-decoration: text-decoration(none);
+}
+/*# sourceMappingURL=estilos.css.map */
