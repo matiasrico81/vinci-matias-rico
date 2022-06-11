@@ -1,9 +1,9 @@
 /* Página Servicios */
 
 .titcontainer {
-    display: flex;
-    justify-content: left;
-    align-items: center;
+    @include flexbox ( flex, left, center);
     margin-bottom: 5%;
-    background-color: #737c8751 ;
+    background-color: map-get($map-background, gris2); 
 }
+
+

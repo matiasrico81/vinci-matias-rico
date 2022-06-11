@@ -18,7 +18,7 @@
         border : $borde; 
     
         &:hover{
-            background: #41454b;
+            background: map-get($map-background, gris);
             border: $borde;
         }   
     }

@@ -3,7 +3,7 @@
 
 /* info*/
 .info {
-    background-color: #41454b;
+    background-color: map-get($map-background, gris);
     height: 15vh;
     }
     
@@ -21,17 +21,21 @@
     
             body{
                 background: $color_card;   
-                box-shadow: $sombra;  
-    
-                text {
-                    font-size: 1.5rem;
-                    text-align: center;
-                    color: $color_letra;
-                }
-    
+                box-shadow: $sombra; 
+                
+
                 title {
                     text-align: center;
                     color: $color_letra;
                 }
+                
+                
+                text {
+                    @extend.title;
+                    font-size: 1.5rem;
+                }
+                
             }    
+
+            
     }
