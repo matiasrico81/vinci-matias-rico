@@ -1,9 +1,14 @@
 @import "variables";
-@import "reseteo.scss";
-@import "header.scss";
-@import "inicio.scss";
-@import "contacto.scss";
-@import "nosotros.scss";
-@import "productos.scss";
-@import "servicios.scss";
-@import "footer.scss";
+@import "mixins";
+@import "reseteo";
+@import "header";
+@import "inicio";
+@import "contacto";
+@import "nosotros";
+@import "productos";
+@import "servicios";
+@import "footer";
+
+.row{ 
+    --bs-gutter-x: 0;
+}

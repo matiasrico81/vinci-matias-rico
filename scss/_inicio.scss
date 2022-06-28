@@ -24,14 +24,14 @@
                 box-shadow: $sombra; 
                 
 
-                title {
+                .title {
                     text-align: center;
                     color: $color_letra;
                 }
                 
                 
-                text {
-                    @extend.title;
+                .text {
+                    @extend .title;
                     font-size: 1.5rem;
                 }
                 
@@ -39,3 +39,5 @@
 
             
     }
+
+    
