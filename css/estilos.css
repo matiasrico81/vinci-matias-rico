@@ -10,6 +10,7 @@
 .navbar-expand-lg {
   background-image: -webkit-gradient(linear, right top, left top, from(blue), to(black));
   background-image: linear-gradient(to left, blue, black);
+  width: 100vw;
 }
 
 .form-control {
