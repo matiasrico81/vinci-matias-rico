@@ -1,10 +1,20 @@
 /* Página Contacto */
 
-.formulario {
-    margin-left: 3%;
+// .formulario {
+//     margin-left: 3%;
+// }
+
+.registration-form {
+    display: flex;
+    text-align: center;
+    margin-left: 5%;
 }
 
+.btn-primary{
+    margin-top: 5%;
+}
 .mapa {
 display: flex;
-margin-left: 3%;
+margin-left: 50%;
+margin-bottom: 70%;
 }

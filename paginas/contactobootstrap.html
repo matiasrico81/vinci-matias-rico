@@ -48,9 +48,6 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Contacto</a>
                         </li>   
-                        <li class="animate__heartBeat">
-                            <a class="nav-link active promo " aria-current="page" href="./error404.html">Promoción</a>
-                        </li>                       
                     </ul>           
                 </div>
             </div>
@@ -60,37 +57,23 @@
     <div class="titcontainer">
         <h3 class="titulo"> Contacto</h3>
     </div>
-
-    <form class="formulario">
-        <!-- Name input -->
-        <div class="form-outline mb-4">
-            <input type="text" id="form4Example1" class="form-control" />
-            <label class="form-label" for="form4Example1">Nombre</label>
-        </div>
-
-        <!-- Email input -->
-        <div class="form-outline mb-4">
-            <input type="email" id="form4Example2" class="form-control" />
-            <label class="form-label" for="form4Example2">Email</label>
-        </div>
-
-        <!-- Message input -->
-        <div class="form-outline mb-4">
-            <textarea class="form-control" id="form4Example3" rows="4"></textarea>
-            <label class="form-label" for="form4Example3">Mensajee</label>
-        </div>
-
-        <!-- Checkbox -->
-        <div class="form-check d-flex justify-content-left mb-4">
-            <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
-            <label class="form-check-label" for="form4Example4">
-                Enviararme una copia e este mensaje
-            </label>
-        </div>
-
-        <!-- Submit button -->
-        <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
-    </form>
+    
+    <div class="registration-form">
+        <form>
+            <div class="form-group">
+                <input class="form-control item" type="text" name="username" maxlength="15" minlength="4" pattern="^[a-zA-Z0-9_.-]*$" id="username" placeholder="Nombre" required>
+            </div>
+            <div class="form-group">
+                <input class="form-control item" type="text" name="password" minlength="6" id="password" placeholder="Apellido" required>
+            </div>
+            <div class="form-group">
+                <input class="form-control item" type="email" name="email" id="email" placeholder="Correo electronico" required>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary btn-block create-account" type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
 
     <div class="mapa">
         <section>

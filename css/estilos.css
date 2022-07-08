@@ -42,12 +42,7 @@
 }
 
 /* Error404 */
-.body {
-  background: black;
-}
-
 .conten {
-  padding: 16px;
   background-color: #1a1a1a;
   position: fixed;
   top: 4em;
@@ -185,15 +180,24 @@
 }
 
 /* Página Contacto */
-.formulario {
-  margin-left: 3%;
+.registration-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin-left: 5%;
+}
+
+.btn-primary {
+  margin-top: 5%;
 }
 
 .mapa {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 3%;
+  margin-left: 50%;
+  margin-bottom: 70%;
 }
 
 /* Página Nosotros */
