@@ -1,0 +1,35 @@
+/* Header*/
+
+.navbar-expand-lg {
+    background-image: $color_fondo ; 
+    width: 100vw;
+    }
+
+    
+    .form-control {
+        width: 40vw;    
+    }
+    
+    .navbar-toggler {
+        color:$color_letra;
+        border: $borde;
+    }
+    
+    .btn{ 
+        color: $color_letra;  
+        border : $borde; 
+    
+        &:hover{
+            background: map-get($map-background, gris);
+            border: $borde;
+        }   
+    }
+    
+    .nav-link { 
+        color: white; 
+    }
+    
+    .promo {
+       background: rgb(47, 131, 32);
+       border-radius:2%;
+    }

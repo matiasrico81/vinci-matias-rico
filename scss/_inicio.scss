@@ -1,0 +1,43 @@
+/* Página Index */
+
+
+/* info*/
+.info {
+    background-color: map-get($map-background, gris);
+    height: 15vh;
+    }
+    
+    .nav-link {
+        font-size: 1.2rem;
+    }
+    
+    
+    /* card*/
+    .card { 
+        margin-top: 5%;
+            card-img-top {
+                box-shadow:$sombra;  
+            }
+    
+            body{
+                background: $color_card;   
+                box-shadow: $sombra; 
+                
+
+                .title {
+                    text-align: center;
+                    color: $color_letra;
+                }
+                
+                
+                .text {
+                    @extend .title;
+                    font-size: 1.5rem;
+                }
+                
+            }    
+
+            
+    }
+
+    

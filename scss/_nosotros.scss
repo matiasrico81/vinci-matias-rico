@@ -1,0 +1,12 @@
+/* Página Nosotros */
+
+.card-nos{
+    background: map-get($map-background, celeste); 
+    box-shadow: $sombra;   
+    margin-top: 2%;
+
+
+        .card-nosotros {
+            background-color:$fondo_card;
+        }
+}

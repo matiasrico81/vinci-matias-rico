@@ -1,0 +1,9 @@
+/* Página Servicios */
+
+.titcontainer {
+    @include flexbox ( flex, left, center);
+    margin-bottom: 5%;
+    background-color: map-get($map-background, gris2); 
+}
+
+

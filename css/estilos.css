@@ -1,0 +1,236 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Header*/
+.navbar-expand-lg {
+  background-image: -webkit-gradient(linear, right top, left top, from(blue), to(black));
+  background-image: linear-gradient(to left, blue, black);
+  width: 100vw;
+}
+
+.form-control {
+  width: 40vw;
+}
+
+.navbar-toggler {
+  color: color white;
+  border: border 1px solid white;
+}
+
+.btn {
+  color: color white;
+  border: border 1px solid white;
+}
+
+.btn:hover {
+  background: #41454b;
+  border: border 1px solid white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.promo {
+  background: #2f8320;
+  border-radius: 2%;
+}
+
+/* Error404 */
+.body {
+  background: black;
+}
+
+.conten {
+  padding: 16px;
+  background-color: #1a1a1a;
+  position: fixed;
+  top: 4em;
+  width: 100%;
+  text-align: center;
+}
+
+.conten__img {
+  width: 100%;
+  min-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.conten__img img {
+  width: 300px;
+  display: block;
+  -webkit-animation: animates 2s linear infinite alternate;
+          animation: animates 2s linear infinite alternate;
+}
+
+.conten__number {
+  position: absolute;
+  font-size: 5.5rem;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 600;
+  top: 9rem;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-animation: animatestext 2s linear infinite alternate;
+          animation: animatestext 2s linear infinite alternate;
+}
+
+.conten__error {
+  color: #ffffff;
+  width: 50%;
+  margin: 2em auto;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.conten__button {
+  background-color: #0077d8f4;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Gill Sans", sans-serif;
+  padding: 0.8em 1em;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+@-webkit-keyframes animates {
+  0% {
+    -webkit-transform: translateX(5%);
+            transform: translateX(5%);
+  }
+  100% {
+    -webkit-transform: translateX(-5%);
+            transform: translateX(-5%);
+  }
+}
+
+@keyframes animates {
+  0% {
+    -webkit-transform: translateX(5%);
+            transform: translateX(5%);
+  }
+  100% {
+    -webkit-transform: translateX(-5%);
+            transform: translateX(-5%);
+  }
+}
+
+@-webkit-keyframes animatestext {
+  0% {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  100% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+
+@keyframes animatestext {
+  0% {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  100% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+
+/* Página Index */
+/* info*/
+.info {
+  background-color: #41454b;
+  height: 15vh;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* card*/
+.card {
+  margin-top: 5%;
+}
+
+.card card-img-top {
+  -webkit-box-shadow: box-shadow(0px 1px 10px rgba(0, 0, 0, 0.8));
+          box-shadow: box-shadow(0px 1px 10px rgba(0, 0, 0, 0.8));
+}
+
+.card body {
+  background: background(#264364);
+  -webkit-box-shadow: box-shadow(0px 1px 10px rgba(0, 0, 0, 0.8));
+          box-shadow: box-shadow(0px 1px 10px rgba(0, 0, 0, 0.8));
+}
+
+.card body .title, .card body .text {
+  text-align: center;
+  color: color white;
+}
+
+.card body .text {
+  font-size: 1.5rem;
+}
+
+/* Página Contacto */
+.formulario {
+  margin-left: 3%;
+}
+
+.mapa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 3%;
+}
+
+/* Página Nosotros */
+.card-nos {
+  background: aliceblue;
+  -webkit-box-shadow: box-shadow(0px 1px 10px rgba(0, 0, 0, 0.8));
+          box-shadow: box-shadow(0px 1px 10px rgba(0, 0, 0, 0.8));
+  margin-top: 2%;
+}
+
+.card-nos .card-nosotros {
+  background-color: background(white);
+}
+
+/* Página Productos */
+/* Página Servicios */
+.titcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5%;
+  background-color: #737c8751;
+}
+
+/* footer*/
+.text-reset {
+  -webkit-text-decoration: text-decoration(none);
+          text-decoration: text-decoration(none);
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+/*# sourceMappingURL=estilos.css.map */

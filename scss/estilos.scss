@@ -1,0 +1,15 @@
+@import "variables";
+@import "mixins";
+@import "reseteo";
+@import "header";
+@import "error";
+@import "inicio";
+@import "contacto";
+@import "nosotros";
+@import "productos";
+@import "servicios";
+@import "footer";
+
+.row{ 
+    --bs-gutter-x: 0;
+}
