@@ -13,8 +13,10 @@
   width: 100vw;
 }
 
-.form-control {
+.barra {
   width: 40vw;
+  border-radius: 5px;
+  margin-right: 2px;
 }
 
 .navbar-toggler {
@@ -184,20 +186,60 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
-  margin-left: 5%;
 }
 
 .btn-primary {
-  margin-top: 5%;
+  margin-top: 3%;
+}
+
+.form-control {
+  width: 40vw;
 }
 
 .mapa {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 50%;
-  margin-bottom: 70%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2%;
+}
+
+.map {
+  width: 40vw;
+  height: 40vw;
+  padding-bottom: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+  .form-control {
+    width: 60vw;
+  }
+  .map {
+    width: 60vw;
+    height: 60vw;
+  }
+  .form-control {
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .form-control {
+    width: 80vw;
+  }
+  .map {
+    width: 80vw;
+    height: 80vw;
+  }
+  .form-control .item {
+    width: 40vw;
+  }
 }
 
 /* Página Nosotros */

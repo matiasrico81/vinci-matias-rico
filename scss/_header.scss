@@ -6,8 +6,10 @@
     }
 
     
-    .form-control {
-        width: 40vw;    
+    .barra {
+        width: 40vw;   
+        border-radius: 5px; 
+        margin-right: 2px;
     }
     
     .navbar-toggler {
@@ -18,7 +20,7 @@
     .btn{ 
         color: $color_letra;  
         border : $borde; 
-    
+
         &:hover{
             background: map-get($map-background, gris);
             border: $borde;
@@ -33,3 +35,5 @@
        background: rgb(47, 131, 32);
        border-radius:2%;
     }
+
+   
