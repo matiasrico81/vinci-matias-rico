@@ -1,10 +1,11 @@
 /* Header*/
-
+.navbar{
+    max-width: 100%;
+}
 .navbar-expand-lg {
     background-image: $color_fondo ; 
     width: 100vw;
     }
-
     
     .barra {
         width: 40vw;   
@@ -36,4 +37,7 @@
        border-radius:2%;
     }
 
+    .btn{ 
+        color: white;
+    }
    

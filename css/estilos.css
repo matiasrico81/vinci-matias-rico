@@ -7,6 +7,10 @@
 }
 
 /* Header*/
+.navbar {
+  max-width: 100%;
+}
+
 .navbar-expand-lg {
   background-image: -webkit-gradient(linear, right top, left top, from(blue), to(black));
   background-image: linear-gradient(to left, blue, black);
@@ -41,6 +45,10 @@
 .promo {
   background: #2f8320;
   border-radius: 2%;
+}
+
+.btn {
+  color: white;
 }
 
 /* Error404 */

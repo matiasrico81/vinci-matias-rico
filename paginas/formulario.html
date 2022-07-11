@@ -1,0 +1,18 @@
+<form>
+    <label for="nombre"> Nombre: </label>
+    <input type="text" name="nombre" required id="nombre" />
+    <button>Enviar</button>
+</form>
+
+<script>
+    const campoNombre = document.querySelector("input");
+    campoNombre.addEventListener("input", () => {
+    campoNombre.setCustomValidity("");
+    campoNombre.checkValidity();
+    console.log(campoNombre.checkValidity());
+    });
+
+    campoNombre.addEventListener("invalid", () => {
+    campoNombre.setCustomValidity("Por favor, ingrese su nombre.");
+    });
+</script>
